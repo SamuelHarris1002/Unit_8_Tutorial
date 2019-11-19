@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Tutorial Case
+
+   Tables Style Sheet
+   Author: Samuel Harris
+   Date:   11/19/19
+
+   Filename:         dlr_tables.css
+
+*/
+
+/* Table Styles */
+table.schedule{
+   background: white;
+   border: 10px outset rgb(153,0,153);
+   font-size: 0.75em;
+   width: 100%;
+   border-collapse: collapse;
+}
+
+
+/* Table Cell Styles */
+table.schedule th, table.schedule td{
+   border: 1px solid grey;
+}
+
+
+/* Table Caption Styles */
+table.schedule caption{
+   caption-side: bottom;
+   text-align: right;
+}
+
+
+/* Row Group Styles */
+table.schedule thead{
+   background: rgb(153,0,153);
+   color: white;
+}
+
+table.schedule tfoot{
+   background: black;
+   color: white;
+}
+
+/* Column Group Styles */
+
